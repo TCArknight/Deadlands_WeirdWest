@@ -710,7 +710,7 @@ if (field[abilActive].value <> 0) then
     <exprreq message="Vigor d6+ required"><![CDATA[#trait[attrVig] >= 3]]></exprreq>
     </thing>
   <thing id="edgDWWTaleTeller" name="Tale-Teller" description="A good storyteller not only entertains, he gives hope and comfort as well. In the Weird West, they’re critical to saving the world! \n\nWhat? The world needs saving? You bet it does. Spreading the tales of your posse’s derring-do is far more important in the grand scheme of things than putting down some ornery varmint. So if you do something amazing, bucko, tell people about it! \n\nThe Marshal has all the details on page 84, but this Edge gives you two perks. First, when making a Persuasion or Performance roll to lower the local Fear Level, your hero adds +2 to her total. Second, when you successfully lower the local Fear Level and get a raise on the Persuasion or Performance roll, the tale-teller and anyone who Supports her earn {b}Conviction{/b} (see {i}Savage Worlds{/i})." compset="Edge" summary="+2 to Persuasion roll to lower the local Fear Level. If Successful, earn a Conviction token." uniqueness="unique">
-    <usesource source="DWW_Core" parent="UserParent" name="Deadlands - Weird West Core"/>
+    <usesource source="DWW_Core" parent="AdventureEdition" name="Deadlands - Weird West Core"/>
     <tag group="MinRank" tag="0" name="Novice" abbrev="Novice"/>
     <tag group="EdgeType" tag="Profession" name="Professional" abbrev="Professional"/>
     <prereq message="Performance or Persuasion d8+ required">
